@@ -1,0 +1,100 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /* Lesson about how font sizes should be between 14px and 20px */
+  }
+  
+  .label {
+    border: 2px solid black;
+    /*   width: 250px; */ /* No border-box */
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  header h1 {
+    font-weight: 800;
+    margin: -4px 0;
+  /*   padding: 0; */
+    text-align: center;
+    letter-spacing: 0.15px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: both;
+  }
+  
+  .md, .lg {
+    background-color: black;
+    border: 0;
+  }
+  
+  .md {
+    height: 5px;
+  }
+  
+  .lg {
+    height: 10px;
+  }
+  
+  .sm-text {
+    font-size: .85rem;
+  }
+  
+  .calories-info h1 {
+    margin: -5px -2px;
+  /*     border-bottom: 1px solid red; Used to span with h1 */
+    overflow: hidden; /* Prevents calories numbers from pushing the md divider down */
+  }
+  
+  .calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  /*   border-bottom: 1px solid red; Used to span with h1 */
+  }
+  
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .indent {
+  /*   text-indent: 1em; */
+    margin-left: 1em;
+  }
+  
+  .dbl-indent {
+    margin-left: 2em;
+  }
+  
+  .note {
+    font-size: .6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+  }
+  
